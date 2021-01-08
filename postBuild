@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -ex
+
+pip install --user gdown
+gdown --id '1i-SkBvQ70t_7Jix3vOEIo9wwEN-e1cmI' --output psrd_only/pytorch_model.bin
